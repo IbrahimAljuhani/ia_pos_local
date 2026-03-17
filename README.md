@@ -3,7 +3,7 @@
 **Author:** Ibrahim Aljuhani  
 **Email:** info@ia.sa  
 **Website:** https://ia.sa  
-**Version:** 18.0.1.0.0  
+**Version:** 18.0.1.0.1  
 **License:** LGPL-3  
 
 ---
