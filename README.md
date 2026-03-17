@@ -28,7 +28,7 @@ No IoT Box or Raspberry Pi required — the Odoo server connects directly to all
 
 | Component | Details |
 |-----------|---------|
-| Odoo | 18.0 (Community or Enterprise) |
+| Odoo | 18.0 Community & Enterprise |
 | Server | Local network — `http://` |
 | Python libraries | `websocket-client`, `python-escpos`, `Pillow` |
 | Network | Odoo server, printers, and terminals on the same LAN |

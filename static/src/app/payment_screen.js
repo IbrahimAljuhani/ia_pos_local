@@ -26,7 +26,7 @@ patch(PaymentScreen.prototype, {
         if (
             success &&
             this.currentOrder.is_paid() &&
-            this.pos.config.auto_validate_terminal_payment
+            this.pos.config.auto_validate_terminal_payment ?? false
         ) {
             this.validateOrder(false);
         }

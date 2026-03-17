@@ -16,3 +16,8 @@
 - Test Connection button for printers
 - Bilingual AR/EN messages in all JS components
 - No IoT Box, no Raspberry Pi, no Mixed Content issues on http://
+
+## [18.0.1.0.1] - 2026-03-17
+### Changed
+- Added `?? false` guard on `auto_validate_terminal_payment` — safe on both Community and Enterprise
+- Updated summary to reflect Community & Enterprise compatibility

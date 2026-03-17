@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'POS Local Terminal & Printer',
-    'version': '18.0.1.0.0',
+    'version': '18.0.1.0.1',
     'category': 'Point of Sale',
-    'summary': 'Mada payment (NeoLeap) + ESC/POS receipt & kitchen printing for local Odoo servers',
+    'summary': 'Mada payment (NeoLeap) + ESC/POS receipt & kitchen printing for local Odoo servers — Community & Enterprise',
     'description': """
         All-in-one POS module for local Odoo installations (http://).
         No IoT Box or Raspberry Pi required.
