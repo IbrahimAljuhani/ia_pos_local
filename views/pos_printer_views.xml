@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_pos_printer_form_escpos_local" model="ir.ui.view">
+        <field name="name">pos.printer.form.escpos.local</field>
+        <field name="model">pos.printer</field>
+        <field name="inherit_id" ref="point_of_sale.view_pos_printer_form"/>
+        <field name="arch" type="xml">
+
+            <field name="printer_type" position="after">
+                <field name="escpos_local_ip"
+                       string="Printer IP Address"
+                       placeholder="e.g. 192.168.1.101"
+                       invisible="printer_type != 'escpos_local'"/>
+                <field name="escpos_local_port"
+                       string="Port"
+                       invisible="printer_type != 'escpos_local'"/>
+                <button string="Test Connection"
+                        name="action_test_printer_connection"
+                        type="object"
+                        class="btn-secondary"
+                        invisible="printer_type != 'escpos_local' or not escpos_local_ip"/>
+            </field>
+
+        </field>
+    </record>
+</odoo>
